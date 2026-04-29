@@ -1,0 +1,33 @@
+# Maven
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java
+*.class
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Test reports and local evidence
+screenshots/
+reports/
+cucumber-reports/
+
+# Appium / Android local files
+*.tmp
+*.lock
+.gradle/
+build/
+
+# APKs
+# Keeping APKs ignored by default because they can be large.
+# If you want to include a demo APK in the repository, remove the next line.
+*.apk
